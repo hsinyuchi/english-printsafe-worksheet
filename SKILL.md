@@ -1,5 +1,5 @@
 ---
-name: english-printsafe-worksheet
+name: hsinyuchi-printsafe-worksheet
 description: Use when generating print-safe dual-page A4 English reading worksheets in both student practice and teacher answer key formats, with adaptive typography to prevent page overflow.
 ---
 
@@ -90,3 +90,33 @@ description: Use when generating print-safe dual-page A4 English reading workshe
 | **Mission 1 結構圖解** | 留長底線 `(1) ___________` 供學生手寫填空 | 填入加粗下劃線答案，並以標籤附上【段落線索考點】 |
 | **Mission 2 閱讀測驗** | `Ans: _______` 留白供填寫 | 答案處標註粗體，選項加註正確標記，題末附【中文詳解與解析】 |
 | **課堂筆記區** | 留白附導引虛線供學生隨堂抄寫筆記 | 附教學引導提示與板書摘要建議 |
+
+---
+
+## 🔒 跨 Agent 執行防漂移鐵律 (Cross-Agent Anti-Drift Protocol)
+
+> **⚡ 適用環境：Google Antigravity、OpenAI Codex CLI、Claude Code、Cursor 等全平台 Agent**
+
+任何 AI Agent 在執行本技能時，**嚴禁依賴各平台大模型的默認輸出習慣自由發揮**，必須 100% 嚴格落實以下防漂移守則：
+
+1. **零自作主張 (Zero Creative Deviation)**：
+   - 嚴格沿用本規範定義之排版結構、區塊順序、欄位標籤與樣式。
+   - **嚴禁私自「改寫/簡化」架構**（例如擅自將特定 Flex/Grid 佈局改寫為文字列表、將精確卡片改為空泛條列、或將樣式簡化）。
+   - **嚴禁自創未經授權的新區塊**（例如擅自新增額外理論講義、發音表或未要求的長篇大論）。
+2. **骨架代碼與格式優先 (Template Boilerplate Priority)**：
+   - 若本規範提供具體代碼片段（HTML、CSS、JS、Markdown 骨架、卡片容器），必須作為不可變更之「填空基底 (Immutable Slots)」。
+   - Agent 的任務僅是將內容精準填入對應的 Slots 容器中，**禁止改動外層容器 class 名稱、DOM 結構與事件綁定機制**。
+3. **成品規格不降級 (No Spec Downgrade)**：
+   - 嚴禁因 Token 長度限制或內容龐大，而將「圖文並茂互動網頁/雙軌講義」偷工減料降級為「純文字草稿」或「簡短大綱」。
+   - 遇長文本時必須完整輸出全課內容或完整分段寫入目標檔案，**絕不省略後半段**。
+4. **雙軌/多模態完整性 (Dual-Track Completeness)**：
+   - 凡涉及「學生練習版」與「教師紅字解答版」之技能，必須兩套完整產出，答案與詳解必須扎實完整，嚴禁留白。
+   - 凡涉及固定卡片數量（如 2 張文法卡片、5 大單字卡片、10 題挖空等），**嚴格維持指定數量，不多不少**。
+5. **角色語氣與受眾鎖定 (Persona & Audience Alignment)**：
+   - 嚴格維持臺灣高中職英語科專業教師立場，第二人稱「你」或「同學們」具同理心之對話語調，**嚴格杜絕第三人稱論文式說教腔**。
+
+### 🏛️ 雙面 A4 閱讀學習單嚴格版面鎖定 (Print-Safe 2-Page Standards)
+1. **嚴格雙面限制**：頁數恰好為 2 頁，絕對禁止溢出至第 3 頁。
+   - Page 1：單元標題、閱讀前導思考、核心閱讀文章。
+   - Page 2：大考單字片語整理、素養閱讀理解題與深度反思題。
+2. **雙軌輸出**：學生版練習單 ＋ 教師版紅字解答詳解單。
