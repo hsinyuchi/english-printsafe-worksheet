@@ -1,5 +1,6 @@
 ---
-name: hsinyuchi-printsafe-worksheet
+name: sylvia-worksheet
+aliases: [hsinyuchi-printsafe-worksheet, english-printsafe-worksheet]
 description: Use when generating print-safe dual-page A4 English reading worksheets in both student practice and teacher answer key formats, with adaptive typography to prevent page overflow.
 ---
 
